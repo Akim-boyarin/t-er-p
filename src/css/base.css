@@ -1,0 +1,299 @@
+.error-page {
+    position: relative;
+    height: 100%;
+}
+.error-page__background {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(240,243,248,1) 8%, rgba(218,230,247,1) 66%);
+    overflow: hidden;
+    opacity: 0.9;
+}
+@media (min-width: 500px) {
+    .error-page__background {
+        opacity: 1;
+    }
+}
+.error-page__background-pic-one {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 214px;
+    left: -218px;
+}
+@media (min-width: 520px) {
+    .error-page__background-pic-one {
+        left: -189px;
+    }
+}
+@media (min-width: 750px) {
+    .error-page__background-pic-one {
+        height: 227px;
+    }
+}
+@media (min-width: 890px) {
+    .error-page__background-pic-one {
+        height: 253px;
+    }
+}
+@media (min-width: 1100px) {
+    .error-page__background-pic-one {
+        height: 287px;
+        left: -293px;
+    }
+}
+@media (min-width: 1366px) {
+    .error-page__background-pic-one {
+        height: 396px;
+    }
+}
+@media (min-width: 1500px) {
+    .error-page__background-pic-one {
+        height: 426px;
+    }
+}
+@media (min-width: 1650px) {
+    .error-page__background-pic-one {
+        height: 460px;
+    }
+}
+@media (min-width: 2050px) {
+    .error-page__background-pic-one {
+        height: 480px;
+    }
+}
+.error-page__background-pic-two {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: 16px;
+    height: 214px;
+    right: -251px;
+}
+@media (min-width: 520px) {
+    .error-page__background-pic-two {
+        right: -223px;
+    }
+}
+@media (min-width: 750px) {
+    .error-page__background-pic-two {
+        height: 227px;
+        right: -200px;
+    }
+}
+@media (min-width: 890px) {
+    .error-page__background-pic-two {
+        height: 253px;
+    }
+}
+@media (min-width: 1100px) {
+    .error-page__background-pic-two {
+        height: 287px;
+        right: -343px
+    }
+}
+@media (min-width: 1366px) {
+    .error-page__background-pic-two {
+        height: 396px;
+    }
+}
+@media (min-width: 1500px) {
+    .error-page__background-pic-two {
+        height: 426px;
+    }
+}
+@media (min-width: 1650px) {
+    .error-page__background-pic-two {
+        height: 460px;
+    }
+}
+@media (min-width: 2050px) {
+    .error-page__background-pic-two {
+        height: 480px;
+    }
+}
+.error-page__content-container {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.error-page__content {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media (min-width: 500px) {
+    .error-page__content {
+        width: 480px;
+    }
+}
+@media (min-width: 1100px) {
+    .error-page__content {
+        width: 900px;
+    }
+}
+.error-page h1.error-page__title {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 100%;
+    color: #C5D2E7 !important;
+    text-align: center;
+    margin-bottom: 16px;
+}
+@media (min-width: 1100px) {
+    .error-page h1.error-page__title {
+        font-size: 290px;
+        margin-bottom: 24px;
+    }
+}
+@media (min-width: 1380px) {
+    .error-page h1.error-page__title {
+        font-size: 320px;
+    }
+}
+.error-page__description {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #8195BB;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+@media (min-width: 875px) {
+    .error-page__description {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1100px) {
+    .error-page__description {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+@media (min-width: 1600px) {
+    .error-page__description {
+        font-size: 60px;
+    }
+}
+.error-page__link-to-main {
+
+}
+
+.link-to-main {
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(92,89,242,1) 37%, rgba(48,197,237,1) 76%);
+    padding: 1px;
+    border-radius: 28px;
+}
+.link-to-main__first-child {
+    background-color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 26px;
+}
+.link-to-main__last-child {
+    font-family: "Lato";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, rgba(92,89,242,1) 37%, rgba(48,197,237,1) 76%);
+}
+
+
+.error-page__description_call-subtitle {
+    font-size: 23px;
+    display: none;
+}
+@media (min-width: 1100px) {
+    .error-page__description_call-subtitle {
+        display: block;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1600px) {
+    .error-page__description_call-subtitle {
+        margin-bottom: 0;
+        font-size: 44px;
+        padding-top: 18px;
+    }
+}
+.error-page__links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+@media (min-width: 1100px) {
+    .error-page__links {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1600px) {
+    .error-page__links {
+        padding-top: 24px;
+    }
+}
+.error-page__tel-link {
+    display: block;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    color: #8195BB;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+@media (min-width: 875px) {
+    .error-page__tel-link {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1100px) {
+    .error-page__tel-link {
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 1600px) {
+    .error-page__tel-link {
+        margin-bottom: 20px;
+    }
+}
+.error-page__messenger-link {
+    width: 30px;
+    height: 30px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+@media (min-width: 875px) {
+    .error-page__messenger-link {
+        width: 40px;
+        height: 40px;
+    }
+}
