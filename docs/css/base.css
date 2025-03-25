@@ -1,6 +1,7 @@
 .error-page {
     position: relative;
     height: 100%;
+    overflow: auto;
 }
 .error-page__background {
     position: relative;
@@ -10,6 +11,7 @@
     background: radial-gradient(circle, rgba(240,243,248,1) 8%, rgba(218,230,247,1) 66%);
     overflow: hidden;
     opacity: 0.9;
+    min-height: 835px;
 }
 @media (min-width: 500px) {
     .error-page__background {
@@ -21,17 +23,12 @@
     position: absolute;
     z-index: 1;
     top: 0;
-    height: 214px;
+    height: 232px;
     left: -218px;
 }
 @media (min-width: 520px) {
     .error-page__background-pic-one {
         left: -189px;
-    }
-}
-@media (min-width: 750px) {
-    .error-page__background-pic-one {
-        height: 227px;
     }
 }
 @media (min-width: 890px) {
@@ -70,7 +67,7 @@
     position: absolute;
     z-index: 1;
     bottom: 16px;
-    height: 214px;
+    height: 232px;
     right: -251px;
 }
 @media (min-width: 520px) {
@@ -80,7 +77,6 @@
 }
 @media (min-width: 750px) {
     .error-page__background-pic-two {
-        height: 227px;
         right: -200px;
     }
 }
@@ -126,6 +122,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-height: 835px;
 }
 .error-page__content {
     width: calc(100% - 20px);
@@ -174,7 +171,7 @@
     font-weight: 400;
     line-height: 150%;
     color: #8195BB;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 24px;
 }
 @media (min-width: 875px) {
@@ -244,7 +241,7 @@
 .error-page__links {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -268,6 +265,7 @@
     color: #8195BB;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-bottom: 11px;
 }
 @media (min-width: 875px) {
     .error-page__tel-link {
